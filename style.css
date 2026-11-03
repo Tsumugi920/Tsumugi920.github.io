@@ -1,0 +1,13 @@
+body { background: #f6f7f9; color: #222; font-family: system-ui, sans-serif; margin: 0; padding: 0; }
+main { max-width: 960px; margin: 0 auto; padding: 24px; }
+nav { background: #fff; border-bottom: 1px solid #e2e2e2; padding: 12px 24px; position: sticky; top: 0; }
+nav a { margin-right: 20px; color: #2456a6; text-decoration: none; }
+header { margin: 24px 0; }
+.card { background: #fff; border: 1px solid #e2e2e2; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.card.collapsed .card-body { display: none; }
+.works { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.works .card { margin-bottom: 0; }
+.tag { display: inline-block; background: #eef2ff; color: #2456a6; border-radius: 999px; padding: 2px 10px; font-size: 13px; margin-right: 6px; }
+button { cursor: pointer; padding: 6px 12px; border-radius: 8px; border: 1px solid #ccc; background: #fff; }
+footer { color: #666; font-size: 14px; margin-top: 24px; }
+@media (max-width: 600px) { main { padding: 12px; } nav { padding: 12px; } .card { padding: 14px; } }
